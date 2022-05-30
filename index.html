@@ -8,6 +8,8 @@
     <style type="text/css">
         body {
             margin: 0 4em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 11px;
         }
 
         section {
@@ -24,15 +26,75 @@
             border-bottom: solid 4px skyblue;
         }
 
-        .badge {
-            background-color: rgb(137, 207, 209);
-            border: 1px solid rgb(187, 239, 240);
+        .badgegold {
+            background-color: rgb(255, 215, 0);
+            border: 1px solid rgb(241, 229, 172);
+            border-radius: 5px;
+            padding: 2px 4px;
+            margin: 0 4px;
+            font-size: 12px;
+            color: red;
+            font-weight: bold;
+        }
+
+        .badgesilver {
+            background-color: rgb(192, 192, 192);
+            border: 1px solid #D7D7D8;
             border-radius: 5px;
             padding: 2px;
             margin: 0 4px;
             font-size: 12px;
-            color: rgb(20, 117, 119);
+            color: blue;
             font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        h2 {
+            background-color: #cac5c5;
+            margin: 24px 0 10px 0;
+            padding: 4px;
+        }
+
+        .award-item>b {
+            width: 90%;
+            display: block;
+            padding: 4px;
+        }
+
+        .award-item ul {
+            padding-top: 0px;
+            margin: 0px;
+        }
+
+        .award-item ul li {
+            min-height: 20px;
+            line-height: 18px;
+        }
+
+        .award-item>b,
+        table>tr>th {
+            text-decoration: underline;
+        }
+
+        table,
+        td,
+        th {
+            border: 0 none;
+            border-bottom: 1px solid rgb(174, 173, 173);
+            border-collapse: collapse;
+            text-align: left;
+            padding: 8px;
+            line-height: 4px;
+        }
+
+        .award-item {
+            display: block;
+            float: left;
+            width: 50%;
+            min-height: 130px;
         }
     </style>
 </head>
@@ -54,128 +116,164 @@
     </section>
     <section class="edu">
         <h2>Education</h2>
-        <div class="edu-item">
-            <b>Standard - 7</b><span class="badge"> 88 %</span>
-            <div><i>2021 - 2022</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - 6</b><span class="badge"> 91.71 %</span>
-            <div><i>2020 - 2021</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - 5</b><span class="badge"> 93 %</span>
-            <div><i>2019 - 2020</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - 4</b><span class="badge"> 93.17 %</span>
-            <div><i>2018 - 2019</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - 3</b><span class="badge"> 92.67 %</span>
-            <div><i>2017 - 2018</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - 2</b><span class="badge"> A*</span>
-            <div><i>2016 - 2017</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - 1</b><span class="badge"> A*</span>
-            <div><i>2015 - 2016</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - Sr. KG</b><span class="badge"> A*</span>
-            <div><i>2014 - 2015</i></div>
-        </div>
-        <div class="edu-item">
-            <b>Standard - Jr. KG</b><span class="badge"> A</span>
-            <div><i>2013 - 2014</i></div>
-        </div>
-    </section>
-    <section class="award">
-        <h2>School Awards</h2>
-        <div class="award-item">
-            <b>Standard - 5</b>
-            <ul>
-                <li>Drawing Competition - <b>Rank: 1<sup>th</sup> </b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - 4</b>
-            <ul>
-                <li>Rakhi Making Competition - <b>Rank: 1<sup>th</sup> </b></li>
-                <li>English Elocution Competition - <b>Rank: 2<sup>nd</sup> </b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - 3</b>
-            <ul>
-                <li>Handwriting Competition - <b>Rank: 1<sup>th</sup> </b></li>
-                <li>Toran Making Competition - <b>Rank: 1<sup>th</sup> </b></li>
-                <li>English Elocution Competition - <b>Rank: 2<sup>nd</sup> </b></li>
-                <li>Bookmark Making Competition - <b>Rank: 1<sup>th</sup> </b></li>
-                <li>Sand Painting Competition - <b>Rank: 1<sup>th</sup> </b></li>
-                <li>Origami Competition - <b>Rank: 1<sup>th</sup> </b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - 2</b>
-            <ul>
-                <li>Rakhi Making Competition - <b>Rank: 1<sup>th</sup> </b></li>
-                <li>Republic Day Celebration Group Dance Participation</li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - 1</b>
-            <ul>
-                <li>Handwriting Competition - <b>Rank: 1<sup>th</sup> </b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - Sr. KG</b>
-            <ul>
-                <li>Frog Race Competition - <b>Rank: 2<sup>nd</sup> </b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - Jr. KG</b>
-            <ul>
-                <li>Janmastami Celebration Competition - <b>Rank: 1<sup>th</sup> </b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Standard - Nursery</b>
-            <ul>
-                <li>Fancy Dress Competition - <b>Rank: 3<sup>rd</sup> </b></li>
-            </ul>
-        </div>
-    </section>
-    <section class="award">
-        <h2>Other Awards</h2>
-        <div class="award-item">
-            <b>SOF</b>
-            <ul>
-                <li>IMO - class 7<b> award: Gold Medal</b></li>
-                <li>IMO - class 6<b> award: Gold Medal</b></li>
-                <li>IMO - class 5<b> award: Gold Medal</b></li>
-                <li>IMO - class 4<b> award: Gold Medal</b></li>
-                <li>IMO - class 3<b> award: Gold Medal</b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Aloha Mental Arithmentic</b>
-            <ul>
-                <li>13th State Level Competition held at Ahmedabad <b> Rank: Winner</b></li>
-                <li>12th State Level Competition held at Surat <b> Rank: 2<sup>nd</sup> Runners up</b></li>
-            </ul>
-        </div>
-        <div class="award-item">
-            <b>Karate</b>
-            <ul>
-                <li>6th Kyu Exam <b> award: Green belt</b></li>
-                <li>7th Kyu Exam <b> award: Orange belt</b></li>
-                <li>8th Kyu Exam <b> award: Yellow belt</b></li>
-                <li>9th Kyu Exam <b> award: White-1 belt</b></li>
-            </ul>
-        </div>
-    </section>
+        <table>
+            <tr>
+                <th>Standard</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>2021 - 2022</td>
+                <td><span class="badgegold">88 %</span></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>2020 - 2021</td>
+                <td><span class="badgegold">91.71 %</span></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2019 - 2020</td>
+                <td><span class="badgegold">93 %</span></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2018 - 2019</td>
+                <td><span class="badgegold">93.17 %</span></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2017 - 2018</td>
+                <td><span class="badgegold">92.67 %</span></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2016 - 2017</td>
+                <td><span class="badgegold">A*</span></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2015 - 2016</td>
+                <td><span class="badgegold">A*</span></td>
+            </tr>
+            <tr>
+                <td>Sr. KG</td>
+                <td>2014 - 2015</td>
+                <td><span class="badgegold">A*</span></td>
+            </tr>
+            <tr>
+                <td>Jr. KG</td>
+                <td>2013 - 2014</td>
+                <td><span class="badgegold">A*</span></td>
+            </tr>
+        </table>
+        <section class="award">
+            <h2>School Awards</h2>
+            <table>
+                <tr>
+                    <th>Standard</th>
+                    <th>Competition</th>
+                    <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Drawing Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">4</td>
+                    <td>Rakhi Making Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>English Elocution Competition</td>
+                    <td><span class="badgegold">2<sup>nd</sup></span></td>
+                </tr>
+                <tr>
+                    <td rowspan="6">3</td>
+                    <td>Handwriting Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Toran Making Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>English Elocution Competition</td>
+                    <td><span class="badgegold">2<sup>nd</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Bookmark Making Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Sand Painting Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Origami Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td>Rakhi Making Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Republic Day Celebration Group Dance Participation</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Handwriting Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Sr. KG</td>
+                    <td>Frog Race Competition</td>
+                    <td><span class="badgegold">2<sup>nd</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Jr. KG</td>
+                    <td>Janmastami Celebration Competition</td>
+                    <td><span class="badgegold">1<sup>st</sup></span></td>
+                </tr>
+                <tr>
+                    <td>Nursery</td>
+                    <td>Fancy Dress Competition</td>
+                    <td><span class="badgegold">3<sup>rd</sup></span></td>
+                </tr>
+            </table>
+            <section class="award">
+                <h2>Other Awards</h2>
+
+                <div class="award-item">
+                    <b>SOF</b>
+                    <ul>
+                        <li>IMO - class 7 award: <b class="badgegold">Gold Medal</b></li>
+                        <li>IMO - class 6 award: <b class="badgegold">Gold Medal</b></li>
+                        <li>IMO - class 5 award: <b class="badgegold">Gold Medal</b></li>
+                        <li>IMO - class 4 award: <b class="badgegold">Gold Medal</b></li>
+                        <li>IMO - class 3 award: <b class="badgegold">Gold Medal</b></li>
+                    </ul>
+                </div>
+                <div class="award-item">
+                    <b>Aloha Mental Arithmentic</b>
+                    <ul>
+                        <li>13th State Level Competition, Ahmedabad - <b class="badgegold"> Winner</b></li>
+                        <li>12th State Level Competition, Surat - <b class="badgegold"> 2<sup>nd</sup> Runners up</b>
+                        </li>
+                    </ul>
+                </div>
+                <div class="award-item">
+                    <b>Karate</b>
+                    <ul>
+                        <li>6th Kyu Exam award:<b class="badgegold"> Green belt</b></li>
+                        <li>7th Kyu Exam award:<b class="badgegold"> Orange belt</b></li>
+                        <li>8th Kyu Exam award:<b class="badgegold"> Yellow belt</b></li>
+                        <li>9th Kyu Exam award:<b class="badgegold"> White-1 belt</b></li>
+                    </ul>
+                </div>
+            </section>
 </body>
